@@ -1,0 +1,128 @@
+{
+  "student": {
+    "name": "Kavin M",
+    "roll_number": "24AD053",
+    "college": "KPR Institute of Engineering and Technology",
+    "department": "Artificial Intelligence and Data Science",
+    "course": "U21ADP05 - Exploratory Data Analysis and Visualization",
+    "academic_year": "2026-2027",
+    "faculty": "Mr. Rushikesh Kadam"
+  },
+  "dataset": {
+    "source": "UCI Air Quality Dataset",
+    "doi": "10.24432/C59K5F",
+    "raw_samples": 9357,
+    "labeled_samples": 7674,
+    "excluded_missing_target": 1683,
+    "train_samples": 5371,
+    "val_samples": 1151,
+    "test_samples": 1152
+  },
+  "test_metrics": {
+    "MAE": 0.3657988905906677,
+    "RMSE": 0.5563818882378886,
+    "MSE": 0.3095608055591583,
+    "R2": 0.8093913793563843,
+    "N_samples": 1152
+  },
+  "feature_ranking": [
+    {
+      "Feature": "PT08.S4(NO2)",
+      "Baseline_MAE": 0.5335,
+      "Mean_MAE_Increase": 0.2829,
+      "Std_MAE_Increase": 0.0046,
+      "Rank": 1
+    },
+    {
+      "Feature": "PT08.S2(NMHC)",
+      "Baseline_MAE": 0.5335,
+      "Mean_MAE_Increase": 0.256,
+      "Std_MAE_Increase": 0.0047,
+      "Rank": 2
+    },
+    {
+      "Feature": "PT08.S3(NOx)",
+      "Baseline_MAE": 0.5335,
+      "Mean_MAE_Increase": 0.1088,
+      "Std_MAE_Increase": 0.0027,
+      "Rank": 3
+    },
+    {
+      "Feature": "AH",
+      "Baseline_MAE": 0.5335,
+      "Mean_MAE_Increase": 0.1036,
+      "Std_MAE_Increase": 0.0059,
+      "Rank": 4
+    },
+    {
+      "Feature": "PT08.S1(CO)",
+      "Baseline_MAE": 0.5335,
+      "Mean_MAE_Increase": 0.1009,
+      "Std_MAE_Increase": 0.0064,
+      "Rank": 5
+    },
+    {
+      "Feature": "hour_sin",
+      "Baseline_MAE": 0.5335,
+      "Mean_MAE_Increase": 0.0754,
+      "Std_MAE_Increase": 0.0033,
+      "Rank": 6
+    },
+    {
+      "Feature": "day_of_week",
+      "Baseline_MAE": 0.5335,
+      "Mean_MAE_Increase": 0.0437,
+      "Std_MAE_Increase": 0.0028,
+      "Rank": 7
+    },
+    {
+      "Feature": "is_weekend",
+      "Baseline_MAE": 0.5335,
+      "Mean_MAE_Increase": 0.0353,
+      "Std_MAE_Increase": 0.0039,
+      "Rank": 8
+    },
+    {
+      "Feature": "hour_cos",
+      "Baseline_MAE": 0.5335,
+      "Mean_MAE_Increase": 0.0228,
+      "Std_MAE_Increase": 0.0018,
+      "Rank": 9
+    },
+    {
+      "Feature": "month_sin",
+      "Baseline_MAE": 0.5335,
+      "Mean_MAE_Increase": 0.0168,
+      "Std_MAE_Increase": 0.003,
+      "Rank": 10
+    },
+    {
+      "Feature": "RH",
+      "Baseline_MAE": 0.5335,
+      "Mean_MAE_Increase": 0.0139,
+      "Std_MAE_Increase": 0.0011,
+      "Rank": 11
+    },
+    {
+      "Feature": "PT08.S5(O3)",
+      "Baseline_MAE": 0.5335,
+      "Mean_MAE_Increase": 0.0039,
+      "Std_MAE_Increase": 0.0029,
+      "Rank": 12
+    },
+    {
+      "Feature": "T",
+      "Baseline_MAE": 0.5335,
+      "Mean_MAE_Increase": 0.0005,
+      "Std_MAE_Increase": 0.002,
+      "Rank": 13
+    },
+    {
+      "Feature": "month_cos",
+      "Baseline_MAE": 0.5335,
+      "Mean_MAE_Increase": -0.0024,
+      "Std_MAE_Increase": 0.0006,
+      "Rank": 14
+    }
+  ]
+}
